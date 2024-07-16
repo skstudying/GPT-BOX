@@ -69,7 +69,6 @@ export function useDebugPanel(playerRef) {
         <button onClick={(e) => {
           onClickWelcomeAudio();
         }}>Welcome audio</button> &nbsp;
-        <a href="https://github.com/ossrs/ai-talk/discussions" target='_blank' rel='noreferrer'>Help me!</a>
       </>}
     </div>
     <div className={sharing ? 'LogPanelLong' : 'LogPanel'}>
